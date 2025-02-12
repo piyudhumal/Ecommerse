@@ -1,0 +1,352 @@
+/* Navbar */
+.navbar-nav a {
+  font-size: 18px;
+}
+
+/*login page*/
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.input-container {
+  margin-bottom: 1rem;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+/* register page */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.register-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.input-container {
+  margin-bottom: 1.2rem;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.register-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #218838;
+}
+
+/*about page*/
+.about-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.about-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+.about-header h1 {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.about-section {
+  margin-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.about-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-section ul li {
+  font-size: 1.1rem;
+  margin: 5px 0;
+  color: #444;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.team-member {
+  text-align: center;
+  width: 30%;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #666;
+}
+
+
+
+
+/*contact*/
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+.h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+} 
+
+.contact-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.input-container {
+  margin-bottom: 1rem;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.input-container input,
+.input-container textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/*footer*/
+/* .footer {
+  background-color: black;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
+  font-size: 1rem;
+  color: white;
+} */
+ /* General page styling */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Ensure the page content takes full height except for the footer */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content area, ensuring footer stays at the bottom */
+.main-content {
+  flex: 1;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #040404;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  max-height:50px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 10px;
+  
+}
+
+/* Sticky footer */
+footer {
+  width: 100%;
+  bottom: 0;
+  position: fixed; /* or position: relative; if you want it at the end of content */
+}
